@@ -16,6 +16,7 @@
 
 void sendByte(Stream &serial, uint8_t b, bool escape);
 void wifisend(Stream &serial, int destaddr[], int destport, int srcport, String data);
+String wifireceive(Stream &serial);
 
 #endif
 
